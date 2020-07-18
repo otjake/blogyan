@@ -1,4 +1,3 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
 The Website isa simple  blog system with one level reply and comment system, ie a specific reply to its top reply.
@@ -7,7 +6,7 @@ Or Accodion format (bootstraps jquery and css making this easy to implement) ,wi
 Sytem also comes with a subscribe and social medial contact buttons
 </p>
 
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><img src="https://github.com/otjake/blogyan/blob/master/admin_login.PNG" width="400"></p>
 
 <p align="center">
 <h1><strong>ADMIN PAGE</strong></h1>

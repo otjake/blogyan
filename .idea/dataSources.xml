@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=joining" uuid="f0673477-a21e-4de6-a129-0b1334fde300">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=joining</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="css" uuid="ca3a532d-52a0-4775-ae8a-09a18290c2fe">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/admin/css</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

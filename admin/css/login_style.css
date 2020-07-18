@@ -1,0 +1,61 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    padding:0;
+    margin:0;}
+body,input{
+    font-family:'Open sans',sans-serif;
+    font-size:18px;
+    color:#4c4c4c;
+}
+.body{
+    background-color:#292931;
+    background-image:url("view.jpg")  ;
+    background-repeat: no-repeat;
+    height: 100%;
+width: 100%;
+    background-size: inherit;
+}
+
+label{
+    color: #61a8c7;
+    padding: 10px;
+/*    */
+/*align: center;*/
+    margin-left: 40%;
+}
+
+.form-placement{
+
+    margin-top: 120px;
+    border-bottom: 3px #32ffa3 solid;
+    border-top: 3px #32ffa3 solid;
+}
+.btn{
+    margin-left: 40%;
+    
+}
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+    label{
+        color: #61a8c7;
+        padding: 10px;
+        /*    */
+        /*align: center;*/
+        margin-left: 40%;
+    }
+    
+}

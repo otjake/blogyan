@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="filter_replies.php?posts=<?php echo htmlspecialchars(urlencode($id)); ?>">
+    <div class="form-group">
+        <label >Name</label>
+        <input type="text" class="form-control" name="name" placeholder="Name" value="Admin" />
+    </div>
+
+    <div class="form-group">
+        <label >comment_id</label>
+        <input type="integer" class="form-control" name="comment_id" value="<?php echo $c_id; ?>"/>
+    </div>
+
+    <div class="form-group">
+        <label >Email</label>
+        <input type="email" class="form-control" name="email" placeholder="Email address" value="<?php echo $_SESSION['email']; ?>" />
+    </div>
+
+    <div class="form-group">
+        <label >Comment</label>
+        <textarea name="body" cols="55" rows="10" placeholder="Comments"></textarea>
+    </div>
+
+    <button type="submit" name="post_reply" class="btn btn-primary">Post reply</button>
+
+</form>
+</body>
+</html>

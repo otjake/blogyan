@@ -1,6 +1,6 @@
 
 <p align="center">
-The Website isa simple  blog system with one level reply and comment system, ie a specific reply to its top reply.
+The Website is a simple  blog system with one level reply and comment system, ie a specific reply to its top reply.
 The reply.php isn’t needed except replys are wanted on another page,we can have the replies in drop down
 Or Accodion format (bootstraps jquery and css making this easy to implement) ,with a separate form file(reply_form.php).
 Sytem also comes with a subscribe and social medial contact buttons

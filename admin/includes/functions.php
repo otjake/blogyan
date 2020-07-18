@@ -117,14 +117,14 @@ $mail_sql="SELECT * FROM subscribers";
             $mail->Port = 587; // Which port to use, 587 is the default port for TLS security.
             $mail->SMTPSecure = 'tls'; // Which security method to use. TLS is most secure.
             $mail->SMTPAuth = true; // Whether you need to login. This is almost always required.
-            $mail->Username = "jaketuriacada@gmail.com"; // Your Gmail address.
-            $mail->Password = "Ryokaobodo35"; // Your Gmail login password or App Specific Password.
+            $mail->Username = "email"; // Your Gmail address.
+            $mail->Password = "email password"; // Your Gmail login password or App Specific Password.
 
             /*
              * Message Configuration
              */
 
-            $mail->setFrom('jaketuriacada@gmail.com', 'Awesome Website'); // Set the sender of the message.
+            $mail->setFrom('sender email', 'Awesome Website'); // Set the sender of the message.
             $mail->addAddress($sub_email, $sub_name); // Set the recipient of the message.
             $mail->Subject = 'PHPMailer GMail SMTP test22'; // The subject of the message.
 

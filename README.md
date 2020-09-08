@@ -10,7 +10,7 @@ Sytem also comes with a subscribe and social medial contact buttons
 
 <p align="center">
 <h1><strong>ADMIN PAGE</strong></h1>
-<strong>Dir: <h2>blogyan/admin/</h2></strong>
+<p><strong>Dir:</strong>blogyan/admin/</p>
 
 <p align="center"><img src="https://github.com/otjake/blogyan/blob/master/admin_login.PNG" width="400"></p>
 <p><strong>Username</strong>:user</p>
